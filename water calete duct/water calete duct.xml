@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ItemAssembly name="water calete duct" description="spadacz wódy" hideinmenus="false">
+  <Item name="" identifier="orcomponent" ID="1244" rect="-16,-8,16,13" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" Condition="100" InvulnerableToDamage="False" Tags="smallitem,logic" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.8" HiddenInGame="False">
+    <OrComponent TimeFrame="0" MaxOutputLength="200" Output="1" FalseOutput="0" PickingTime="0" CanBePicked="False" AllowInGameEditing="True" Msg="" />
+    <Holdable Attached="True" HoldPos="0,0" HoldAngle="0" SwingAmount="0,0" SwingSpeed="0" SwingWhenHolding="False" SwingWhenAiming="False" SwingWhenUsing="False" DisableHeadRotation="False" SpriteDepthWhenDropped="0.55" PickingTime="5" CanBePicked="True" AllowInGameEditing="True" Msg="ItemMsgDetachWrench">
+      <requireditem items="wrench" type="Equipped" optional="false" ignoreineditor="false" excludebroken="true" excludefullcondition="false" targetslot="-1" allowvariants="true" />
+    </Holdable>
+    <ConnectionPanel Locked="False" PickingTime="0" CanBePicked="False" AllowInGameEditing="True" Msg="ItemMsgRewireScrewdriver">
+      <requireditem items="screwdriver" type="Equipped" optional="false" ignoreineditor="false" excludebroken="true" excludefullcondition="false" targetslot="-1" allowvariants="true" />
+      <input name="signal_in1" />
+      <input name="signal_in2">
+        <link w="1247" />
+      </input>
+      <input name="set_output" />
+      <output name="signal_out" />
+    </ConnectionPanel>
+  </Item>
+  <Item name="" identifier="waterdetector" ID="1245" rect="-32,21,20,14" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" Condition="100" InvulnerableToDamage="False" Tags="smallitem,sensor" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.8" HiddenInGame="False">
+    <WaterDetector MaxOutputLength="200" Output="1" FalseOutput="0" PickingTime="0" CanBePicked="False" AllowInGameEditing="True" Msg="" />
+    <Holdable Attached="True" HoldPos="0,0" HoldAngle="0" SwingAmount="0,0" SwingSpeed="0" SwingWhenHolding="False" SwingWhenAiming="False" SwingWhenUsing="False" DisableHeadRotation="False" SpriteDepthWhenDropped="0.55" PickingTime="5" CanBePicked="True" AllowInGameEditing="True" Msg="ItemMsgDetachWrench">
+      <requireditem items="wrench" type="Equipped" optional="false" ignoreineditor="false" excludebroken="true" excludefullcondition="false" targetslot="-1" allowvariants="true" />
+    </Holdable>
+    <ConnectionPanel Locked="False" PickingTime="0" CanBePicked="False" AllowInGameEditing="True" Msg="ItemMsgRewireScrewdriver">
+      <requireditem items="screwdriver" type="Equipped" optional="false" ignoreineditor="false" excludebroken="true" excludefullcondition="false" targetslot="-1" allowvariants="true" />
+      <output name="signal_out">
+        <link w="1247" />
+        <link w="1248" />
+      </output>
+      <output name="water_%" />
+      <output name="high_pressure" />
+    </ConnectionPanel>
+  </Item>
+  <Item name="" identifier="bluewire" ID="1248" rect="50827,-15544,42,16" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="51,121,173,255" InventoryIconColor="51,121,173,255" ContainerColor="255,255,255,255" Condition="100" InvulnerableToDamage="False" Tags="wire,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" hideinassemblypreview="true">
+    <Holdable HoldPos="0,0" HoldAngle="0" SwingAmount="0,0" SwingSpeed="0" SwingWhenHolding="False" SwingWhenAiming="False" SwingWhenUsing="False" DisableHeadRotation="False" SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+    <Wire NoAutoLock="False" UseSpriteDepth="False" PickingTime="0" CanBePicked="False" AllowInGameEditing="True" Msg="" nodes="8;29;-22;14" />
+  </Item>
+  <Item name="" identifier="bluewire" ID="1247" rect="50827,-15544,42,16" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="51,121,173,255" InventoryIconColor="51,121,173,255" ContainerColor="255,255,255,255" Condition="100" InvulnerableToDamage="False" Tags="wire,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" hideinassemblypreview="true">
+    <Holdable HoldPos="0,0" HoldAngle="0" SwingAmount="0,0" SwingSpeed="0" SwingWhenHolding="False" SwingWhenAiming="False" SwingWhenUsing="False" DisableHeadRotation="False" SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+    <Wire NoAutoLock="False" UseSpriteDepth="False" PickingTime="0" CanBePicked="False" AllowInGameEditing="True" Msg="" nodes="-8;-14.5;-22;14" />
+  </Item>
+  <Item name="" identifier="smallpump" ID="1246" rect="-25,51,66,44" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" Condition="100" InvulnerableToDamage="False" Tags="pump" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.8" HiddenInGame="False">
+    <Pump MaxFlow="100" IsOn="False" MinVoltage="0" PowerConsumption="0" Voltage="1" VulnerableToEMP="True" PickingTime="0" CanBePicked="False" AllowInGameEditing="True" Msg="ItemMsgInteractSelect" />
+    <ConnectionPanel Locked="False" PickingTime="0" CanBePicked="False" AllowInGameEditing="True" Msg="ItemMsgRewireScrewdriver">
+      <requireditem items="screwdriver" type="Equipped" optional="false" ignoreineditor="false" excludebroken="true" excludefullcondition="false" targetslot="-1" allowvariants="true" />
+      <input name="power_in" />
+      <input name="toggle" />
+      <input name="set_active">
+        <link w="1248" />
+      </input>
+      <input name="set_speed" />
+      <input name="set_targetlevel" />
+      <output name="condition_out" />
+    </ConnectionPanel>
+    <Repairable DeteriorationSpeed="0.2" MinDeteriorationDelay="60" MaxDeteriorationDelay="240" MinDeteriorationCondition="0" RepairThreshold="80" FixDurationLowSkill="25" FixDurationHighSkill="5" PickingTime="0" CanBePicked="False" AllowInGameEditing="True" Msg="ItemMsgRepairWrench">
+      <requireditem items="wrench" type="Equipped" optional="false" ignoreineditor="false" excludebroken="true" excludefullcondition="false" targetslot="-1" allowvariants="true" />
+    </Repairable>
+  </Item>
+</ItemAssembly>

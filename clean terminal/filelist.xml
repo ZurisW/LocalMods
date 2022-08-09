@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="clean terminal" modversion="1.0.0" corepackage="False" gameversion="0.18.15.0">
+  <ItemAssembly file="%ModDir%/clean terminal.xml" />
+</contentpackage>
