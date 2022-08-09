@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="OrcaCHUJ" modversion="1.0.18" corepackage="False" gameversion="0.18.15.0">
+  <Submarine file="%ModDir%/Dugong_Shuttle_V2_Deluxe.sub" />
+  <Submarine file="%ModDir%/Dugong MK. IV Shuttle V3.sub" />
+  <Submarine file="%ModDir%/Dugong Shuttle V3 Deluxe.sub" />
+  <Submarine file="%ModDir%/Dugong Shuttle V3 Dziauo DeluX.sub" />
+  <Submarine file="%ModDir%/Dugong MK. V Attack Deluxe UPG.sub" />
+  <Submarine file="%ModDir%/Dugong MK. IV Shuttle V4 UPG.sub" />
+  <Submarine file="%ModDir%/Dugong MK. V Trpt Rlgn UPG.sub" />
+  <Submarine file="%ModDir%/Dugong Shuttle V3 DeluXsja.sub" />
+  <Submarine file="%ModDir%/Dugong MK. VI KAPI-BAR-SUK UPG.sub" />
+  <Submarine file="%ModDir%/Dugong Shuttle V3 DeluXsja V2.sub" />
+  <Submarine file="%ModDir%/Dugong MK. VI KAPI-BAR-SUK V2.sub" />
+  <Submarine file="%ModDir%/Dugong Shuttle V4 Wojtas.sub" />
+  <Submarine file="%ModDir%/Dugong MK. VI KAPI-BAR-SUK V22.sub" />
+  <Submarine file="%ModDir%/Dugong MK. VI KAPI-BAR-SUK V3.sub" />
+</contentpackage>
