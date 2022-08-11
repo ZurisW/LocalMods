@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="junction box condition" modversion="1.0.0" corepackage="False" gameversion="0.18.15.1">
+  <ItemAssembly file="%ModDir%/junction box condition.xml" />
+</contentpackage>
