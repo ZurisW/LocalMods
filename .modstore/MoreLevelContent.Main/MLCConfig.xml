@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Types>
+    <Type>Barotrauma.MoreLevelContent.Shared.Config.MLCConfig</Type>
+    <Type>Barotrauma.MoreLevelContent.Shared.Config.NetworkedConfig</Type>
+    <Type>Barotrauma.MoreLevelContent.Shared.Config.PirateConfig</Type>
+    <Type>Barotrauma.MoreLevelContent.Shared.Config.LevelConfig</Type>
+    <Type>ClientConfig</Type>
+  </Types>
+  <Root Value="Object" Type="0">
+    <NetworkedConfig Value="Object" Type="1">
+      <PirateConfig Value="Object" Type="2">
+        <BasePirateSpawnChance Value="Integer">0</BasePirateSpawnChance>
+        <BaseHuskChance Value="Integer">1</BaseHuskChance>
+        <SpawnChanceNoise Value="Decimal">10</SpawnChanceNoise>
+        <DifficultyNoise Value="Decimal">10</DifficultyNoise>
+        <AddDiffPerPlayer Value="Boolean">True</AddDiffPerPlayer>
+        <DisplaySonarMarker Value="Boolean">False</DisplaySonarMarker>
+      </PirateConfig>
+      <GeneralConfig Value="Object" Type="3">
+        <RuinMoveChance Value="Integer">25</RuinMoveChance>
+      </GeneralConfig>
+    </NetworkedConfig>
+    <Client Value="Object" Type="4">
+      <Verbose Value="Boolean">False</Verbose>
+      <Internal Value="Boolean">False</Internal>
+    </Client>
+    <Version Value="Text">0.0.4</Version>
+  </Root>
+</Configuration>
